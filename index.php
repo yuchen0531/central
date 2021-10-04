@@ -14,11 +14,11 @@
     <meta name="description" CONTENT="2021市場調查研究： 串流影音及Podcast使用與消費行為調查、永續美妝保養品消費調查">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="company" content="UUPON.inc 點鑽整合行銷股份有限公司">
-    <meta itemprop="image" content="/assets/newcomer/static/img/ogImg.8e723e1.png"/>
+    <meta itemprop="image" content="/assets/central/static/img/ogImg.8e723e1.png"/>
     <meta name="copyright" content="版權所有 Copyright © 2020 UUPON Inc. All Rights Reserved.">
     <meta property="og:title" content="UUPON x 中大影響力管理與衡量研究中心">
     <meta property="og:description" content="2021市場調查研究： 串流影音及Podcast使用與消費行為調查、永續美妝保養品消費調查">
-    <meta property="og:image" content="/assets/newcomer/static/img/ogImg.8e723e1.png"/>
+    <meta property="og:image" content="/assets/central/static/img/ogImg.8e723e1.png"/>
     <!-- END -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,10 +27,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
     <script src="https://unpkg.com/vue-meta/dist/vue-meta.js"></script>
-  <link href="/assets/newcomer/static/css/app-app20210917-a.css" rel="stylesheet"></head>
+  <link href="/assets/central/static/css/app-app20210917-a.css" rel="stylesheet"></head>
     <body>
     <div id="app">
     </div>
     <!-- built files will be auto injected -->
-  <script type="text/javascript" src="/assets/newcomer/static/js/manifest-app20210917-a.js"></script><script type="text/javascript" src="/assets/newcomer/static/js/vendor-app20210917-a.js"></script><script type="text/javascript" src="/assets/newcomer/static/js/app-app20210917-a.js"></script></body>
+  <script type="text/javascript" src="/assets/central/static/js/manifest-app20210917-a.js"></script><script type="text/javascript" src="/assets/central/static/js/vendor-app20210917-a.js"></script><script type="text/javascript" src="/assets/central/static/js/app-app20210917-a.js"></script></body>
 </html>
