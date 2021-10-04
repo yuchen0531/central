@@ -1,16 +1,16 @@
 webpackJsonp([1],{
 
-/***/ "0d3y":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "4gZJ":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/picture_5_podcast.7669228.jpg";
+
+/***/ }),
+
+/***/ "GVbV":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -260,10 +260,10 @@ var dataList = [{
         this.bannerList.push({ id: i, banner: this.dataList[i].banner, abstract: this.dataList[i].abstract, title: this.dataList[i].title });
       }
     }
-    document.querySelector('title').innerText = 'UUPON x 中大影響力管理與衡量研究中心';
-    document.querySelector('head meta[name="description"]').content = '2021市場調查研究： 串流影音及Podcast使用與消費行為調查、永續美妝保養品消費調查';
-    document.querySelector('head meta[property="og:title"]').content = 'UUPON x 中大影響力管理與衡量研究中心';
-    document.querySelector('head meta[property="og:description"]').content = '2021市場調查研究： 串流影音及Podcast使用與消費行為調查、永續美妝保養品消費調查';
+    // document.querySelector('title').innerText = 'UUPON x 中大影響力管理與衡量研究中心'
+    // document.querySelector('head meta[name="description"]').content = '2021市場調查研究： 串流影音及Podcast使用與消費行為調查、永續美妝保養品消費調查'
+    // document.querySelector('head meta[property="og:title"]').content = 'UUPON x 中大影響力管理與衡量研究中心'
+    // document.querySelector('head meta[property="og:description"]').content = '2021市場調查研究： 串流影音及Podcast使用與消費行為調查、永續美妝保養品消費調查'
   },
 
   computed: {},
@@ -293,14 +293,14 @@ var dataList = [{
   }
 
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7bd4375f","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/Home.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-d6b06266","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/Home.vue
 var Home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home mx-auto pb-5"},[_c('div',{staticClass:"container p-2"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col"},[_c('router-link',{attrs:{"to":"/"}},[_c('img',{staticClass:"d-none d-md-block",attrs:{"src":__webpack_require__("dLd/"),"width":"235px","alt":""}})]),_vm._v(" "),_c('router-link',{attrs:{"to":"/"}},[_c('img',{staticClass:"d-md-none",attrs:{"src":__webpack_require__("dLd/"),"width":"135px","alt":""}})])],1)]),_vm._v(" "),_c('div',{staticClass:"row mt-2"},[_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"banner"},[_c('swiper',{ref:"swiperComponent",attrs:{"options":_vm.swiperOptions}},[_vm._l((_vm.bannerList),function(item,index){return _c('swiper-slide',{key:index},[_c('div',{staticClass:"w-100 d-md-flex  banner-box p-1"},[_c('img',{staticClass:"d-md-block d-none cursor-pointer",attrs:{"src":item.banner,"width":"75%","alt":""},on:{"click":function($event){return _vm.gotoIntroduce(item, index)}}}),_vm._v(" "),_c('img',{staticClass:"d-md-none cursor-pointer",attrs:{"src":item.banner,"width":"100%","alt":""},on:{"click":function($event){return _vm.gotoIntroduce(item, index)}}}),_vm._v(" "),_c('div',{staticClass:"pl-3 pr-2 pt-3 d-none d-md-block w-25 banner-card"},[_c('p',{staticClass:"font-weight-bold h4 text-orange cursor-pointer word-break",on:{"click":function($event){return _vm.gotoIntroduce(item, index)}}},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('p',{staticClass:"word-break h6",domProps:{"innerHTML":_vm._s(item.abstract.substring(0,35) + '...')}}),_vm._v(" "),_c('p',{staticClass:"cursor-pointer text-gray h6",on:{"click":function($event){return _vm.gotoIntroduce(item, index)}}},[_c('u',[_vm._v("了解更多")])])])])])}),_vm._v(" "),_c('div',{staticClass:"swiper-pagination",attrs:{"slot":"pagination"},slot:"pagination"})],2)],1)])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"row align-items-end"},_vm._l((_vm.dataList),function(item,index){return _c('div',{key:index,staticClass:"col-12 col-md-6 col-lg-4 mb-3"},[_c('p',{staticClass:"h4 text-orange"},[_vm._v(_vm._s(_vm.dataList[index].title))]),_vm._v(" "),_c('div',[_c('img',{attrs:{"src":_vm.dataList[index].img,"width":"100%","alt":""}}),_vm._v(" "),_c('p',{domProps:{"innerHTML":_vm._s(_vm.dataList[index].date)}}),_vm._v(" "),_c('p',{domProps:{"innerHTML":_vm._s(_vm.dataList[index].abstract.substring(0,30) + '...')}}),_vm._v(" "),_c('u',{staticClass:"text-gray cursor-pointer",on:{"click":function($event){return _vm.gotoIntroduce(item, index)}}},[_vm._v("了解更多")])])])}),0)])])}
 var Home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row mt-5"},[_c('div',{staticClass:"col h1 font-weight-bold text-first"},[_vm._v("最新消息")])])}]
 var Home_esExports = { render: Home_render, staticRenderFns: Home_staticRenderFns }
 /* harmony default export */ var views_Home = (Home_esExports);
 // CONCATENATED MODULE: ./src/views/Home.vue
 function Home_injectStyle (ssrContext) {
-  __webpack_require__("qxgI")
+  __webpack_require__("GVbV")
 }
 var Home_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -514,10 +514,10 @@ var set_default = /*#__PURE__*/__webpack_require__.n(set);
           }
         }
       }
-      document.querySelector('title').innerText = this.data[this.dataID].seoshare.title;
-      document.querySelector('head meta[name="description"]').content = this.data[this.dataID].seoshare.description;
-      document.querySelector('head meta[property="og:title"]').content = this.data[this.dataID].seoshare.title;
-      document.querySelector('head meta[property="og:description"]').content = this.data[this.dataID].seoshare.description;
+      // document.querySelector('title').innerText = this.data[this.dataID].seoshare.title
+      // document.querySelector('head meta[name="description"]').content = this.data[this.dataID].seoshare.description
+      // document.querySelector('head meta[property="og:title"]').content = this.data[this.dataID].seoshare.title
+      // document.querySelector('head meta[property="og:description"]').content = this.data[this.dataID].seoshare.description
       console.log(document.querySelector('head meta[property="og:title"]'));
       window.scrollTo({
         top: 0,
@@ -551,14 +551,14 @@ var set_default = /*#__PURE__*/__webpack_require__.n(set);
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-45e2bd5c","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/Introduce.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-47dbcc28","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/Introduce.vue
 var Introduce_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"data pt-3 pb-5"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col"},[_c('router-link',{attrs:{"to":"/"}},[_c('img',{staticClass:"d-none d-md-block",attrs:{"src":__webpack_require__("dLd/"),"width":"235px","alt":""}}),_vm._v(" "),_c('img',{staticClass:"d-md-none",attrs:{"src":__webpack_require__("dLd/"),"width":"135px","alt":""}})])],1)]),_vm._v(" "),_c('div',{staticClass:"row mt-2"},[_c('div',{staticClass:"col-12 col-md-8"},[_c('p',{staticClass:"font-weight-bold h4 text-orange"},[_vm._v(_vm._s(_vm.data[_vm.dataID].title))]),_vm._v(" "),_c('div',{staticClass:"text-gray mt-4"},[_c('img',{staticClass:"float-left mr-2",attrs:{"src":_vm.data[_vm.dataID].img,"width":"180px","alt":""}}),_vm._v(" "),_c('p',{staticClass:"h6font-weight-bold text-first",domProps:{"innerHTML":_vm._s(_vm.data[_vm.dataID].abstract)}}),_vm._v(" "),_c('br'),_vm._v(" "),(_vm.data[_vm.dataID].include.length>=1)?_c('p',{staticClass:"h4 font-weight-bold text-first"},[_vm._v("what's included??")]):_vm._e(),_vm._v(" "),_c('ul',{staticClass:"ml-4"},_vm._l((_vm.data[_vm.dataID].include),function(item,index){return _c('li',{key:index},[_vm._v(_vm._s(item))])}),0)])]),_vm._v(" "),_c('div',{staticClass:"d-none d-md-block col-md-4 mt-md-0 mt-4"},[_c('div',{staticClass:"border border-gray"},[_c('p',{staticClass:"p-3 h4 border-bottom border-gray text-first font-weight-bold"},[_vm._v("報告資訊")]),_vm._v(" "),_c('p',{staticClass:"p-3 h6 border-bottom border-gray text-first"},[_vm._v(_vm._s(_vm.data[_vm.dataID].title))]),_vm._v(" "),_c('div',{staticClass:"p-3 border-bottom border-gray text-first"},[_c('p',{staticClass:"h6 mb-2"},[_vm._v("頁數: "+_vm._s(_vm.data[_vm.dataID].pagecount))]),_vm._v(" "),_c('p',{staticClass:"h6 mb-2"},[_vm._v("檔案類型: "+_vm._s(_vm.data[_vm.dataID].filetype))])]),_vm._v(" "),_c('div',{staticClass:"p-3 text-center bg-light-orange"},[_c('button',{staticClass:"order-btn py-2 px-3",on:{"click":function($event){return _vm.gotoSurvey()}}},[_vm._v("聯絡我們")])])])])]),_vm._v(" "),_c('div',{staticClass:"row mt-3"},[_c('div',{staticClass:"col"},[_c('div',{staticClass:"d-flex border-bottom border-gray"},[_c('div',{staticClass:"px-3 py-2 cursor-pointer",class:{'tabItem':_vm.tabVal === 'maincatalogue'},on:{"click":function($event){_vm.tabVal ='maincatalogue'}}},[_vm._v("章節目錄")]),_vm._v(" "),_c('div',{staticClass:"px-3 py-2 cursor-pointer",class:{'tabItem':_vm.tabVal === 'picturecatalogue'},on:{"click":function($event){_vm.tabVal = 'picturecatalogue'}}},[_vm._v("圖目錄")]),_vm._v(" "),_c('div',{staticClass:"px-3 py-2 cursor-pointer",class:{'tabItem':_vm.tabVal === 'tablecatalogue'},on:{"click":function($event){_vm.tabVal = 'tablecatalogue'}}},[_vm._v("表目錄")])])])]),_vm._v(" "),_c('div',{staticClass:"row mt-3"},[_c('div',{staticClass:"col"},[(_vm.tabVal === 'maincatalogue')?_c('div',_vm._l((_vm.data[_vm.dataID].maincatalogue),function(item,index){return _c('div',{key:index},[_c('div',{staticClass:"d-flex justify-content-between align-items-end mb-2 text-first"},[_c('span',{staticClass:"mr-2 text-nowrap"},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('span',{staticClass:"float-right"},[_vm._v(_vm._s(item.pages))])]),_vm._v(" "),(item.content)?_c('div',_vm._l((item.content),function(i,index){return _c('div',{key:index,staticClass:"ml-3 d-flex justify-content-between align-items-end mb-2 text-first"},[_c('span',{staticClass:"mr-2 text-nowrap"},[_vm._v(_vm._s(i.title))]),_vm._v(" "),_c('span',{staticClass:"float-right"},[_vm._v(_vm._s(i.pages))])])}),0):_vm._e()])}),0):_vm._e(),_vm._v(" "),(_vm.tabVal === 'picturecatalogue')?_c('div',_vm._l((_vm.data[_vm.dataID].picturecatalogue),function(item,index){return _c('div',{key:index,staticClass:"d-flex justify-content-between align-items-end mb-2 text-first"},[_c('span',{staticClass:"mr-2 text-nowrap"},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('div',{staticClass:" border-dotted w-100 mr-1"}),_vm._v(" "),_c('span',{},[_vm._v(_vm._s(item.pages))])])}),0):_vm._e(),_vm._v(" "),(_vm.tabVal === 'tablecatalogue')?_c('div',_vm._l((_vm.data[_vm.dataID].tablecatalogue),function(item,index){return _c('div',{key:index,staticClass:"d-flex justify-content-between align-items-end mb-2 text-first"},[_c('span',{staticClass:"mr-2 text-nowrap"},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('div',{staticClass:" border-dotted w-100 mr-1"}),_vm._v(" "),_c('span',{staticClass:"float-right"},[_vm._v(_vm._s(item.pages))])])}),0):_vm._e()])]),_vm._v(" "),_c('div',{staticClass:"row mt-3 d-md-none"},[_c('div',{staticClass:"col-md-4 mt-md-0 mt-4"},[_c('div',{staticClass:"border border-gray"},[_c('p',{staticClass:"p-3 h4 border-bottom border-gray text-first font-weight-bold"},[_vm._v("報告資訊")]),_vm._v(" "),_c('p',{staticClass:"p-3 h6 border-bottom border-gray text-first"},[_vm._v(_vm._s(_vm.data[_vm.dataID].title))]),_vm._v(" "),_c('div',{staticClass:"p-3 border-bottom border-gray text-first"},[_c('p',{staticClass:"h6 mb-2"},[_vm._v("頁數: "+_vm._s(_vm.data[_vm.dataID].pagecount))]),_vm._v(" "),_c('p',{staticClass:"h6 mb-2"},[_vm._v("檔案類型: "+_vm._s(_vm.data[_vm.dataID].filetype))])]),_vm._v(" "),_c('div',{staticClass:"p-3 text-center bg-light-orange"},[_c('button',{staticClass:"order-btn py-2 px-3",on:{"click":function($event){return _vm.gotoSurvey()}}},[_vm._v("聯絡我們")])])])])]),_vm._v(" "),_c('div',{staticClass:"row mt-3 d-md-block d-none"},[_c('div',{staticClass:"col text-center"},[_c('button',{staticClass:"order-btn py-2 px-3",on:{"click":function($event){return _vm.gotoSurvey()}}},[_vm._v("聯絡我們")])])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"row mt-1"},_vm._l((_vm.moreArr),function(i,index){return _c('div',{key:index,staticClass:"col-12 col-md-6 col-lg-4 mb-3"},[_c('img',{staticClass:"cursor-pointer",attrs:{"src":_vm.data[i].img,"width":"100%","alt":""},on:{"click":function($event){return _vm.gotoIntroduce(i, _vm.data[i].title)}}}),_vm._v(" "),_c('p',{staticClass:"h4 text-orange cursor-pointer",on:{"click":function($event){return _vm.gotoIntroduce(i, _vm.data[i].title)}}},[_vm._v(_vm._s(_vm.data[i].title))])])}),0)])])}
 var Introduce_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row mt-4"},[_c('div',{staticClass:"col"},[_c('p',{staticClass:"h2 font-weight-bold"},[_vm._v("更多報告")])])])}]
 var Introduce_esExports = { render: Introduce_render, staticRenderFns: Introduce_staticRenderFns }
 /* harmony default export */ var views_Introduce = (Introduce_esExports);
 // CONCATENATED MODULE: ./src/views/Introduce.vue
 function Introduce_injectStyle (ssrContext) {
-  __webpack_require__("0d3y")
+  __webpack_require__("gd8F")
 }
 var Introduce_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -655,6 +655,13 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAABUCAYAAADa
 
 /***/ }),
 
+/***/ "gd8F":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "j/ML":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -677,13 +684,6 @@ module.exports = __webpack_require__.p + "static/img/banner_3_makep.60b1e9d.jpeg
 /***/ }),
 
 /***/ "pc4J":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "qxgI":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
