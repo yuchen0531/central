@@ -127,12 +127,12 @@
         } else if (index == 1) {
           title = '串流影音及Podcast 使用與消費行為調查'
         }
-        // gtag('event', 'Page Click', { 
-        //     'event_category': 'Click',
-        //     'event_label': `點擊${title}`,
-        //     'value': 1
-        //   })
-        window.location.href = `introduce_${index}.html`
+        gtag('event', 'Page Click', { 
+            'event_category': 'Click',
+            'event_label': `點擊${title}`,
+            'value': 1
+          })
+        window.location.href = `pages/introduce_${index}.html`
       }
       let content
       for ( let i = 0;i<list.length; i++) {
