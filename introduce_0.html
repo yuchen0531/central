@@ -157,11 +157,11 @@
       } else if (index == 1) {
         title = '串流影音及Podcast 使用與消費行為調查'
       }
-      // gtag('event', 'Page Click', { 
-      //     'event_category': 'Click',
-      //     'event_label': `點擊${title}`,
-      //     'value': 1
-      //   })
+      gtag('event', 'Page Click', { 
+          'event_category': 'Click',
+          'event_label': `點擊${title}`,
+          'value': 1
+        })
       window.location.href = `introduce_${index}.html`
     }
     function gotoSurvey () {
@@ -178,19 +178,21 @@
         item.classList.remove('tabItem')
       })
       event.target.classList.add('tabItem')
+      const picture = document.querySelector(`#picturecatalogueContent`)
+      const table = document.querySelector(`#tablecatalogueContent`)
+      const main = document.querySelector(`#maincatalogueContent`)
       if (item === 'picturecatalogue') {
-        document.querySelector(`#picturecatalogueContent`).style.display = 'block'
-        document.querySelector(`#tablecatalogueContent`).style.display = 'none'
-        document.querySelector(`#maincatalogueContent`).style.display = 'none'
+        picture.style.display = 'block'
+        table.style.display = 'none'
+        main.style.display = 'none'
       } else if (item === 'tablecatalogue') {
-        document.querySelector(`#picturecatalogueContent`).style.display = 'none'
-        document.querySelector(`#tablecatalogueContent`).style.display = 'block'
-        document.querySelector(`#maincatalogueContent`).style.display = 'none'
+        picture.style.display = 'none'
+        table.style.display = 'block'
+        main.style.display = 'none'
       } else if (item === 'maincatalogue') {
-        document.querySelector(`#picturecatalogueContent`).style.display = 'none'
-        document.querySelector(`#picturecatalogueContent`).classList.add('tabItem')
-        document.querySelector(`#tablecatalogueContent`).style.display = 'none'
-        document.querySelector(`#maincatalogueContent`).style.display = 'block'
+        picture.style.display = 'none'
+        table.style.display = 'none'
+        main.style.display = 'block'
       }
     }
     let content

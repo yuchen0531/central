@@ -172,21 +172,21 @@
       } else if (index == 1) {
         title = '串流影音及Podcast 使用與消費行為調查'
       }
-      // gtag('event', 'Page Click', { 
-      //     'event_category': 'Click',
-      //     'event_label': `點擊${title}`,
-      //     'value': 1
-      //   })
+      gtag('event', 'Page Click', { 
+          'event_category': 'Click',
+          'event_label': `點擊${title}`,
+          'value': 1
+        })
         console.log(`點擊${title}`)
       window.location.href = `introduce_${index}.html`
     }
     function gotoSurvey () {
       // eslint-disable-next-line
-      // gtag('event', 'Page Click', { 
-      //   'event_category': 'Click',
-      //   'event_label': `連結跳轉_永續美妝保養品消費調查`,
-      //   'value': 1
-      // })
+      gtag('event', 'Page Click', { 
+        'event_category': 'Click',
+        'event_label': `連結跳轉_串流影音及Podcast 使用與消費行為調查`,
+        'value': 1
+      })
       window.open('https://forms.gle/Ej6iZNPdUhMeW816A')
     }
     function tabVal(item, event){
@@ -194,18 +194,21 @@
         item.classList.remove('tabItem')
       })
       event.target.classList.add('tabItem')
+      const picture = document.querySelector(`#picturecatalogueContent`)
+      const table = document.querySelector(`#tablecatalogueContent`)
+      const main = document.querySelector(`#maincatalogueContent`)
       if (item === 'picturecatalogue') {
-        document.querySelector(`#picturecatalogueContent`).style.display = 'block'
-        document.querySelector(`#tablecatalogueContent`).style.display = 'none'
-        document.querySelector(`#maincatalogueContent`).style.display = 'none'
+        picture.style.display = 'block'
+        table.style.display = 'none'
+        main.style.display = 'none'
       } else if (item === 'tablecatalogue') {
-        document.querySelector(`#picturecatalogueContent`).style.display = 'none'
-        document.querySelector(`#tablecatalogueContent`).style.display = 'block'
-        document.querySelector(`#maincatalogueContent`).style.display = 'none'
+        picture.style.display = 'none'
+        table.style.display = 'block'
+        main.style.display = 'none'
       } else if (item === 'maincatalogue') {
-        document.querySelector(`#picturecatalogueContent`).style.display = 'none'
-        document.querySelector(`#tablecatalogueContent`).style.display = 'none'
-        document.querySelector(`#maincatalogueContent`).style.display = 'block'
+        picture.style.display = 'none'
+        table.style.display = 'none'
+        main.style.display = 'block'
       }
     }
     let content
